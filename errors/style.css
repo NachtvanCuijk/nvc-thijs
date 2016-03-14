@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Neuropol;
+    src: url(neuropol.ttf);
+}
+h1, h2, h3, h4, li, #contact {
+	font-family: Neuropol;
+}
+html{
+    background-image: url("wp.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+h5, h6, p, #disc {
+	font-family: Calibri !important;
+}
+#content {
+    height: auto;
+    min-height: 920px;
+}
+#header {
+	background-color: black;
+	height: 75px;
+	display: block;
+	margin: -8px;
+	text-align:center;
+	width: 100%;
+	position: fixed;
+}
+ul, #secondlist {
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	margin-top: 0px;
+	text-align: center;
+	font-weight: bold;
+	width: 100%;
+}
+ul li {
+	padding: 25px 20px;
+	height: 45px;
+	display: inline-block;
+	margin: .2rem;
+}
+ul li a, #secondlist li a {
+	text-decoration: none;
+	color: black;
+	color: #ffffff !important;
+	text-align: center;
+
+}
+ul li:hover, #secondlist li:hover {
+	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+	background-color: hsla(0, 0%, 15%, 1); 	
+	border-style: solid;
+	border-color: white;
+    border-width: 0px 0px 4px 00px;
+	height: 21px;
+}
+#content {
+	padding-top: 100px;
+}
+.ticketImg {
+	width: 100%;
+}
+.ticketImgTD{
+	width: 220px;
+	height: 100px;
+	padding-right: 10px;
+}
+#post {
+	width: 20%;
+	margin: 0px 40%;
+	padding: 20px;
+	background-color: hsla(0, 0%, 100%, 0.7);
+}
+.posting {
+    width: 800px;
+    margin: 0 auto;
+    color: white;
+    
+}
+.post {
+    margin: 0 auto 18px auto;
+    background-color: hsla(0, 0%, 100%, 0.7);
+    padding: 10px;
+    width: 800px;
+    border-radius: 5px;
+}
+#topdiv {
+	padding-bottom: 50px;
+}
+#footer {
+    position: relative;
+    bottom: 0;
+    margin-left: -8px !important;
+    padding: 9px 4px 2px 11px;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+    background-image: url(footer.jpg);
+}
+.footer-text {
+    color: white;
+    line-height: 100px;
+    margin: 0 0 0 15px !important;
+    padding: 0 !important;
+}
+
+.writtenby {
+    font-size: 16px;
+    text-align: left;
+}
+#barcode {
+
+}
+.okay {
+    color: green !important;
+}
+.noaccess {
+    color: red !important;
+}
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}

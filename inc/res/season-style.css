@@ -1,0 +1,239 @@
+body, html, h1, h2, h3, h4, h5, h6 {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+#content {
+    position: relative;
+    box-shadow: 0px 10px 30px 4px rgb(0, 0, 0);
+    z-index: 2;
+    background-image: url(background.png);
+    background-size: cover;
+    height: auto;
+    padding: 15px;
+    min-height: 920px;
+}
+
+#footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+    background-image: url(footer.jpg);
+}
+
+#body {
+    position: relative;
+}
+
+.post {
+    margin: 0 auto 18px auto;
+    background-color: #fff;
+    padding: 10px;
+    width: 800px;
+    border-radius: 5px;
+}
+
+#top {
+    height: 300px;
+    position: relative;
+    z-index: 3;
+    box-shadow: 0px -15px 40px 4px rgb(0, 0, 0);
+}
+
+#navigation {
+    height: 50px;
+    background-color: #2d2d2d;
+}
+
+#banner {
+    height: 250px;
+}
+
+.links {
+    height: 50px;
+    min-width: 750px;
+	max-width: 850px;
+    margin: 0 auto;
+}
+
+.link {
+    float: left;
+    height: 50px;
+    color: #fff;
+    width: 120px;
+    font-size: 18px;
+    padding: 12px;
+    text-align: center;
+}
+
+.link:link, .link:hover, .link:visited, .link:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link:hover {
+    border-bottom: 3px solid #fff;
+}
+
+.dummyDiv {
+    float: left;
+    height: 50px;
+    width: 120px;
+}
+
+.daInput {
+    width: 200px;
+    margin:0 auto;
+}
+
+.daUser {
+    margin-top: 15px;
+}
+
+.daSub {
+    margin: 0px auto 0px 25px;
+}
+
+textarea.form-control {
+    width: 810px;
+    height: 600px;
+    resize: none;
+}
+
+.posting {
+    width: 800px;
+    margin: 0 auto;
+    
+}
+
+.footer-text {
+    color: white;
+    line-height: 100px;
+    margin: 0 0 0 15px !important;
+    padding: 0 !important;
+}
+
+.loginDiv {
+    height:250px;
+    width:250px;
+    position:fixed;
+    top: 50%;
+    left:50%;
+    margin-top:-125px;
+    margin-left: -125px;
+    background-color: #fff;
+    z-index: 1032;
+    box-shadow: 0px 0px 30px 1px rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+#previewDiv{
+    min-height:100px;
+    height:auto;
+    width: 800px;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    margin-left: -400px;
+    background-color: #FFFFFF;
+    z-index: 1033;
+    border-radius: 5px;
+    padding:10px;
+    box-shadow: 0px 0px 30px 1px rgb(0, 0, 0);
+}
+
+#prevBody {
+    white-space:pre;
+}
+
+#prevBody img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#closePrev {
+    float: right;
+}
+
+.loginDiv h4 {
+    text-align: center;
+    margin: 5px !important;
+}
+
+.niceWhite {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(45,45,45,0.5);
+    z-index: 1031;
+}
+
+.niceWhite, .loginDiv, #previewDiv {
+    display: none;
+}
+
+#loginHeader {
+    width: 100%;
+    height: 40px;
+    background-color: #2d2d2d;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+#loginHeader p {
+    line-height: 40px;
+    font-size: 20px;
+}
+
+h1 small {
+    font-size: 15px !important;
+}
+
+#message {
+    margin-left: 25px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+}
+
+.postHeader {
+    color: #fff !important;
+    padding-bottom: 15px !important;
+}
+
+.buttons {
+    margin-bottom: 5px;
+    float: right;
+    display: none;
+}
+
+.post img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#preview {
+    margin-left:10px;
+}
+
+#login-text {
+	width: 100%;
+	height: 40px;
+	background-color: hsla(360, 100%, 100%, 0.6);
+}
